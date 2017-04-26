@@ -1,0 +1,35 @@
+GEM
+  specs:
+    colored (1.2)
+    concurrent-ruby (1.0.5)
+    cri (2.8.0)
+      colored (~> 1.2)
+    daemons (1.2.4)
+    ddplugin (1.0.1)
+    eventmachine (1.2.3)
+    hamster (3.0.0)
+      concurrent-ruby (~> 1.0)
+    nanoc (4.7.7)
+      cri (~> 2.8)
+      ddplugin (~> 1.0)
+      hamster (~> 3.0)
+      ref (~> 2.0)
+    rack (2.0.1)
+    ref (2.0.0)
+    thin (1.7.0)
+      daemons (~> 1.0, >= 1.0.9)
+      eventmachine (~> 1.0, >= 1.0.4)
+      rack (>= 1, < 3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  nanoc
+  thin
+
+RUBY VERSION
+   ruby 2.3.1p112
+
+BUNDLED WITH
+   1.13.5
